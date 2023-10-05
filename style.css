@@ -1,0 +1,83 @@
+.container{
+    background-color: lightcyan;
+    width:1000px;
+    max-width: 100%;
+    margin:auto;
+    padding:60px;
+	box-shadow: 0 10px 50px rgb(91, 5, 5);
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%; 
+    row-gap: 30px;
+}
+.Profile img{
+    width:200px;
+    height:200px;
+	object-fit: cover;
+    border-radius: 50%;
+}
+.name{
+    padding-left: 30px;
+	padding-top: 0;    
+}
+.name h1{
+    font-weight: 300;
+    font-size: 300%;
+    margin:0px 0 5px ;
+	color: darkorange;
+}
+.SUMMARY {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 30px;
+	color: black;
+}
+h2{
+    padding:0;
+    margin: 0 0 20px 0;
+	color: darkorange;
+}
+.EDUCATION{
+    padding-left: 30px;
+    text-align: justify;
+}
+.EDUCATION table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+.EDUCATION th{ 
+	background-color: white;
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+.EDUCATION td{ 
+	border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+.SKILLS {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 30px;
+}
+.SKILLS h2{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	line-height: 30px;
+}
+.hobbies{
+    text-align: left;
+}
+footer {
+	text-align: center;
+	padding: 5px;
+	background-color: black;
+	color: white;
+  }
+
+
